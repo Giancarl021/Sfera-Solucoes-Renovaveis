@@ -1,0 +1,14 @@
+.header-nav {
+    height: var(--header-height);
+    box-shadow: 0 0 15px #0004;
+}
+
+.navbar-item img.logo {
+    max-height: unset;
+    height: 3rem;
+    width: auto
+}
+
+.header-burger {
+    height: 4rem;
+}

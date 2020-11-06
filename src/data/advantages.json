@@ -1,0 +1,37 @@
+[
+    {
+        "text": "Economia",
+        "subtext": "Gaste menos",
+        "icon": "DollarSign"
+    },
+    {
+        "text": "Retorno Garantido",
+        "subtext": "Não tem como errar",
+        "icon": "RefreshCcw"
+    },
+    {
+        "text": "Durabilidade",
+        "subtext": "Funciona por gerações",
+        "icon": "Zap"
+    },
+    {
+        "text": "Redução da Poluição",
+        "subtext": "Ajude o Meio-Ambiente",
+        "icon": "Droplet"
+    },
+    {
+        "text": "Valorização do Imóvel e da Empresa",
+        "subtext": "Valorize o que você tem",
+        "icon": "ArrowUp"
+    },
+    {
+        "text": "Fonte Infinita",
+        "subtext": "Use a natureza à seu favor",
+        "icon": "Sun"
+    },
+    {
+        "text": "Baixa Manutenção",
+        "subtext": "Não se incomode com defeitos",
+        "icon": "Tool"
+    }
+]
