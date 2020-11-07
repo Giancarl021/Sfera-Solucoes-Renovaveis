@@ -1,7 +1,7 @@
 import React from 'react';
 import './styles.css';
 
-const Advantages = ({ Icon, text, subtext }) => {
+const ContactInfo = ({ name, value, link, Icon }) => {
 
     return (
         <div className="card">
@@ -13,8 +13,8 @@ const Advantages = ({ Icon, text, subtext }) => {
                         </figure>
                     </div>
                     <div className="media-content">
-                        <p className="title is-4">{text}</p>
-                        <p className="subtitle is-6">{subtext || text}</p>
+                        <p className="title is-4">{name}</p>
+                        <a className="is-6" href={link} target="_blank" rel="noopener noreferrer">{value}</a>
                     </div>
                 </div>
             </div>
@@ -22,4 +22,4 @@ const Advantages = ({ Icon, text, subtext }) => {
     );
 };
 
-export default Advantages;
+export default ContactInfo;
