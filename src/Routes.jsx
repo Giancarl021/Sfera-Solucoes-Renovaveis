@@ -14,7 +14,7 @@ const Routes = () => {
 
     return (
         <>
-            <Router>
+            <Router baseRoute={process.env.PUBLIC_URL}>
                 <Header />
                 <Switch>
                     <Route exact path="/" component={Home} />
