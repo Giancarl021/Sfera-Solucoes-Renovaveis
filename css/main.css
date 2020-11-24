@@ -18,6 +18,10 @@ body {
     padding: 20px;
 }
 
+.banner.b-2 {
+    background-image: url('../img/bg-2.jpg');
+}
+
 .banner h1,
 .banner h2 {
     text-transform: uppercase;
@@ -74,6 +78,12 @@ span.green {
     justify-content: center;
     flex-wrap: wrap;
     gap: 15px;
+}
+
+.cc-vertical {
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
 }
 
 .rotate-45 {
