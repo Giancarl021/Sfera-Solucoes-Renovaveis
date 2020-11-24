@@ -79,3 +79,10 @@ span.green {
 .rotate-45 {
     transform: rotate(45deg);
 }
+
+.is-card-image {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 5px;
+}
