@@ -1,5 +1,7 @@
-function init() {
-    
+function scrollToId(id) {
+    document
+        .getElementById(id)
+        .scrollIntoView({
+            behavior: 'smooth'
+        });
 }
-
-document.addEventListener('DOMContentLoaded', init);

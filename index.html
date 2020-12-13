@@ -15,7 +15,7 @@
 <body>
     <nav class="navbar header-nav" role="navigation">
         <div class="navbar-brand">
-            <a class="navbar-item" href="#home">
+            <a class="navbar-item" onclick="scrollToId('home')">
                 <img src="img/logo-navbar.png" alt="SFERA Soluções Renováveis" class="logo">
             </a>
 
@@ -29,17 +29,20 @@
 
         <div class="navbar-menu">
             <div class="navbar-end">
-                <a class="navbar-item" href="#who">
+                <a class="navbar-item" onclick="scrollToId('who')">
                     Quem Somos
                 </a>
-                <a class="navbar-item" href="#why">
+                <a class="navbar-item" onclick="scrollToId('why')">
                     Porque investir
                 </a>
-                <a class="navbar-item" href="#how">
+                <a class="navbar-item" onclick="scrollToId('how')">
                     Como funciona
                 </a>
-                <a class="navbar-item" href="#install">
+                <a class="navbar-item" onclick="scrollToId('install')">
                     Instalação
+                </a>
+                <a class="navbar-item" onclick="scrollToId('contact')">
+                    Contato
                 </a>
             </div>
         </div>
@@ -310,7 +313,7 @@
             </div>
         </section>
     </section>
-    <div class="banner b-2">
+    <div class="banner b-2" id="contact">
         <h1>A <span class="green">SFERA</span> cuida de tudo</h1>
         <h2>Entre em contato</h2>
         <section class="card-container cc-vertical contacts">
