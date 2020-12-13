@@ -5,3 +5,9 @@ function scrollToId(id) {
             behavior: 'smooth'
         });
 }
+
+function toggleMenu() {
+    [ ...document.querySelectorAll('.navbar-burger, .navbar-menu') ].forEach(e => {
+        e.classList.toggle('is-active');
+    });
+}
