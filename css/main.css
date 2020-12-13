@@ -9,17 +9,23 @@ body {
     background-color: #fff;
 }
 
+.section > .title {
+    font-size: 3rem !important;
+}
+
 .banner {
     position: relative;
-    height: 100vh;
+    min-height: calc(100vh - 4rem);
     width: 100%;
     background-image: url('../img/bg.jpg');
     background-size: cover;
     padding: 20px;
+    margin-top: 4rem;
 }
 
 .banner.b-2 {
     background-image: url('../img/bg-2.jpg');
+    position: relative;
 }
 
 .banner h1,
@@ -95,4 +101,31 @@ span.green {
     align-items: center;
     justify-content: center;
     padding: 5px;
+}
+
+.contacts {
+    align-items: flex-end;
+    justify-content: flex-end;
+    position: absolute;
+    bottom: 15px;
+    right: 15px;
+}
+
+.header-nav {
+    position: fixed;
+    width: 100%;
+    height: 4rem;
+    box-shadow: 0 0 15px #0004;
+    top: 0;
+}
+
+.navbar-item img.logo {
+    max-height: unset;
+    height: 3rem;
+    width: auto
+}
+
+.header-nav .navbar-burger {
+    width: 4rem;
+    height: 4rem;
 }

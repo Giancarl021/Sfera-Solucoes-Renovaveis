@@ -11,4 +11,8 @@
         max-width: 80%;
         height: auto;
     }
+
+    .section > .title {
+        font-size: 2rem !important;
+    }
 }
