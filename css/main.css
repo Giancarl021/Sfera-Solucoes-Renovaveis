@@ -9,7 +9,7 @@ body {
     background-color: #fff;
 }
 
-.section > .title {
+.section>.title {
     font-size: 3rem !important;
 }
 
@@ -24,6 +24,7 @@ body {
 }
 
 .banner.b-2 {
+    margin-top: 0;
     background-image: url('../img/bg-2.jpg');
     position: relative;
 }
@@ -128,4 +129,41 @@ span.green {
 .header-nav .navbar-burger {
     width: 4rem;
     height: 4rem;
+}
+
+.card {
+    min-width: 500px;
+}
+
+.section-blue,
+.section-blue * {
+    color: #fff !important;
+    background-color: #1b2b48 !important;
+}
+
+.inferior-line {
+    padding-bottom: 15px;
+    border-bottom: 5px solid #1b2b48;
+}
+
+.line-on-top {
+    margin-top: -15px;
+}
+
+.halflin {
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+}
+
+.halflin h1 {
+    font-size: 45px;
+    text-transform: uppercase;
+}
+
+.column.is-half {
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }

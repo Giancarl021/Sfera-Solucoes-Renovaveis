@@ -15,4 +15,8 @@
     .section > .title {
         font-size: 2rem !important;
     }
+
+    .card {
+        min-width: 375px;
+    }
 }
