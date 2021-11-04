@@ -1,0 +1,22 @@
+@media only screen and (max-width: 990px) {
+    .banner h1 {
+        font-size: 6vh;
+    }
+    
+    .banner h2 {
+        font-size: 5vh;
+    }
+
+    .banner .logo {
+        max-width: 80%;
+        height: auto;
+    }
+
+    .section > .title {
+        font-size: 2rem !important;
+    }
+
+    .card {
+        min-width: 375px;
+    }
+}

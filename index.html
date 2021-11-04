@@ -1,0 +1,449 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- LIBs -->
+    <link rel="stylesheet" href="libs/bulma.min.css">
+    <link rel="stylesheet" href="css/main.css">
+    <link rel="stylesheet" href="css/mobile.css">
+    <link rel="shortcut icon" href="img/favicon.png" type="image/png">
+    <script src="js/main.js"></script>
+    <title>SFERA Soluções Renováveis</title>
+</head>
+
+<body>
+    <nav class="navbar header-nav" role="navigation">
+        <div class="navbar-brand">
+            <a class="navbar-item" onclick="scrollToId('home')">
+                <img src="img/logo-navbar.png" alt="SFERA Soluções Renováveis" class="logo">
+            </a>
+
+            <a role="button" class="navbar-burger" aria-label="menu" aria-expanded="false" onclick="toggleMenu()"
+                data-target="navbarBasicExample">
+                <span aria-hidden="true"></span>
+                <span aria-hidden="true"></span>
+                <span aria-hidden="true"></span>
+            </a>
+        </div>
+
+        <div class="navbar-menu">
+            <div class="navbar-end">
+                <a class="navbar-item" onclick="scrollToId('who')">
+                    Quem Somos
+                </a>
+                <a class="navbar-item" onclick="scrollToId('why')">
+                    Porque investir
+                </a>
+                <a class="navbar-item" onclick="scrollToId('how')">
+                    Como funciona
+                </a>
+                <a class="navbar-item" onclick="scrollToId('install')">
+                    Instalação
+                </a>
+                <a class="navbar-item" onclick="scrollToId('contact')">
+                    Contato
+                </a>
+            </div>
+        </div>
+    </nav>
+    <div class="banner" id="home">
+        <h2>A energia que nos move a um</h2>
+        <h1>mundo sustentável</h1>
+        <img src="img/logo.png" alt="SFERA Soluções Renováveis" class="logo">
+    </div>
+    <section class="section container" id="who">
+        <h1 class="title">Prazer!<br />Somos a <span class="green">SFERA</span></h1>
+        <p>A SFERA tem como objetivo proporcionar a melhor experiência ao adquirir seu sistema fotovoltaico, com
+            transparência e qualidade no atendimento e execução do projeto.
+            <br />
+            <br />
+            Nossa missão é proporcionar bem estar a sua família, reduzir seus gastos com energia e conscientizar a
+            comunidade sobre um mundo mais sustentável.
+            <br />
+            <br />
+            Para isso contamos com uma equipe qualificada e treinada para lhe ajudar a gerar sua própria energia, e
+            desfrutar dos seus benefícios.
+            <br />
+            <br />
+            Acreditamos que está tecnologia precisa estar acessível a todas as pessoas, por isso temos os melhores
+            preços e condições de pagamento, além de contar com financiamentos exclusivos para sistemas fotovoltaico.
+        </p>
+    </section>
+    <section class="section container" id="why">
+        <h1 class="title">Motivos para se investir em um sistema fotovoltaico</h1>
+        <section class="card-container">
+            <div class="card">
+                <div class="card-content">
+                    <div class="media">
+                        <div class="media-left is-card">
+                            <figure class="image is-48x48">
+                                <img src="img/dollar.png" alt="Dólar">
+                            </figure>
+                        </div>
+                        <div class="media-content">
+                            <p class="title is-4">Economia</p>
+                            <p class="subtitle is-6">Redução de até 95% da fatura de energia</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="card">
+                <div class="card-content">
+                    <div class="media">
+                        <div class="media-left is-card">
+                            <figure class="image is-48x48">
+                                <img src="img/air.png" alt="Ar Condicionado">
+                            </figure>
+                        </div>
+                        <div class="media-content">
+                            <p class="title is-4">Conforto</p>
+                            <p class="subtitle is-6">Bem Estar da sua família, sem sustos no fim do mês</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="card">
+                <div class="card-content">
+                    <div class="media">
+                        <div class="media-left is-card">
+                            <figure class="image is-48x48">
+                                <img src="img/return.png" alt="Retorno financeiro">
+                            </figure>
+                        </div>
+                        <div class="media-content">
+                            <p class="title is-4">Retorno garantido</p>
+                            <p class="subtitle is-6">Retorno do investimento em poucos anos</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="card">
+                <div class="card-content">
+                    <div class="media">
+                        <div class="media-left is-card">
+                            <figure class="image is-48x48">
+                                <img src="img/durability.png" alt="Durabilidade" class="rotate-45">
+                            </figure>
+                        </div>
+                        <div class="media-content">
+                            <p class="title is-4">Durabilidade</p>
+                            <p class="subtitle is-6">Garantia de eficiência acima de 25 anos</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="card">
+                <div class="card-content">
+                    <div class="media">
+                        <div class="media-left is-card">
+                            <figure class="image is-48x48">
+                                <img src="img/settings.png" alt="Manutenção">
+                            </figure>
+                        </div>
+                        <div class="media-content">
+                            <p class="title is-4">Baixa manutenção</p>
+                            <p class="subtitle is-6">Baixíssimo custo de manutenção</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="card">
+                <div class="card-content">
+                    <div class="media">
+                        <div class="media-left is-card">
+                            <figure class="image is-48x48">
+                                <img src="img/clean-house.png" alt="Patrimônio">
+                            </figure>
+                        </div>
+                        <div class="media-content">
+                            <p class="title is-4">Valorização do seu Patrimônio</p>
+                            <p class="subtitle is-6">Valoriza sua casa e/ou empresa</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="card">
+                <div class="card-content">
+                    <div class="media">
+                        <div class="media-left is-card">
+                            <figure class="image is-48x48">
+                                <img src="img/eco.png" alt="Ecológico">
+                            </figure>
+                        </div>
+                        <div class="media-content">
+                            <p class="title is-4">Reduz a poluição</p>
+                            <p class="subtitle is-6">Ajuda na preservação do Meio Ambiente</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="card">
+                <div class="card-content">
+                    <div class="media">
+                        <div class="media-left is-card">
+                            <figure class="image is-48x48">
+                                <img src="img/infinity-sun.png" alt="Sol com tomada">
+                            </figure>
+                        </div>
+                        <div class="media-content">
+                            <p class="title is-4">Fonte infinita</p>
+                            <p class="subtitle is-6">Fonte de energia inesgotável</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="card">
+                <div class="card-content">
+                    <div class="media">
+                        <div class="media-left is-card">
+                            <figure class="image is-48x48">
+                                <img src="img/statistics.png" alt="Estatísticas">
+                            </figure>
+                        </div>
+                        <div class="media-content">
+                            <p class="title is-4">Livre de reajustes</p>
+                            <p class="subtitle is-6">Liberte-se dos aumentos anuais da fatura de energia</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </section>
+    <section class="section container" id="how">
+        <h1 class="title">Como funciona?</h1>
+        <img src="img/example.png" class="example" alt="Exemplo">
+        <p>
+            No momento em que o seu sistema começa a gerar sua Própria Energia, você devolve seu consumo a rede.
+            <br />
+            Havendo excesso de energia injetada a rede, gera-se um crédito junto a concessiónaria, abatendo o valor nas
+            próximas faturas.
+            <br />
+            Isso permite reduzir sua conta em ate 95%. Fantástico não é verdade?
+            <br />
+            Entre em contato com nossa equipe, e tire suas dúvidas.
+        </p>
+    </section>
+    <div class="section-blue">
+        <section class="section container" id="install">
+            <h1 class="title">6 ETAPAS<br />Para começar a gerar sua Própria Energia</h1>
+            <section class="card-container">
+                <div class="card">
+                    <div class="card-image is-card-image">
+                        <figure class="image is-96x96">
+                            <img src="img/guy.png" alt="Técnico">
+                        </figure>
+                    </div>
+                    <div class="card-content">
+                        <h1 class="title">1º</h1>
+                        <ul>
+                            <li>Levantamento de Informações;</li>
+                            <li>Visita técnica.</li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="card-image is-card-image">
+                        <figure class="image is-96x96">
+                            <img src="img/paper.png" alt="Papel">
+                        </figure>
+                    </div>
+                    <div class="card-content">
+                        <h1 class="title">2º</h1>
+                        <ul>
+                            <li>Proposta de acordo com sua necessidade;</li>
+                            <li>Definições das condições que cabem no seu orçamento.</li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="card-image is-card-image">
+                        <figure class="image is-96x96">
+                            <img src="img/project.png" alt="Projeto">
+                        </figure>
+                    </div>
+                    <div class="card-content">
+                        <h1 class="title">3º</h1>
+                        <ul>
+                            <li>Execução do projeto;</li>
+                            <li>Homologação junto a concessionária.</li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="card-image is-card-image">
+                        <figure class="image is-96x96">
+                            <img src="img/house.png" alt="Casa">
+                        </figure>
+                    </div>
+                    <div class="card-content">
+                        <h1 class="title">4º</h1>
+                        <ul>
+                            <li>Instalação do Equipamento Solar;</li>
+                            <li>Testes de operação.</li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="card-image is-card-image">
+                        <figure class="image is-96x96">
+                            <img src="img/todo-list.png" alt="Eco">
+                        </figure>
+                    </div>
+                    <div class="card-content">
+                        <h1 class="title">5º</h1>
+                        <ul>
+                            <li>Vistoria da concessionária;</li>
+                            <li>Troca de medidor.</li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="card-image is-card-image">
+                        <figure class="image is-96x96">
+                            <img src="img/sun.png" alt="Eco">
+                        </figure>
+                    </div>
+                    <div class="card-content">
+                        <h1 class="title">6º</h1>
+                        <ul>
+                            <li>Início de geração e economia;</li>
+                            <li>Satisfação do cliente.</li>
+                        </ul>
+                    </div>
+                </div>
+            </section>
+        </section>
+    </div>
+    <section class="section container">
+        <div class="columns">
+            <div class="column halflin">
+                <h1 class="title inferior-line">
+                    Trabalhamos com as melhores marcas do mercado
+                </h1>
+                <h1 class="title line-on-top">Dentre outras...</h1>
+            </div>
+            <div class="column">
+                <div class="columns">
+                    <div class="column is-half">
+                        <img src="img/CanadianSolar.png" alt="Canadian Solar">
+                    </div>
+                    <div class="column is-half">
+                        <img src="img/JinkoSolar.png" alt="Jinko Solar">
+                    </div>
+                </div>
+                <div class="columns">
+                    <div class="column is-half">
+                        <img src="img/Fronius.png" alt="Fronius">
+                    </div>
+                    <div class="column is-half">
+                        <img src="img/TrinaSolar.png" alt="Trina Solar">
+                    </div>
+                </div>
+                <div class="columns">
+                    <div class="column is-half">
+                        <img src="img/Weg.png" alt="Weg">
+                    </div>
+                    <div class="column is-half">
+                        <img src="img/RisenSolar.png" alt="Risen Solar">
+                    </div>
+                </div>
+                <div class="columns">
+                    <div class="column is-half">
+                        <img src="img/APSystems.png" alt="AP Systems">
+                    </div>
+                    <div class="column is-half">
+                        <img src="img/BYD.jpg" alt="Canadian Solar">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <div class="section-blue">
+        <section class="section container">
+            <div class="columns">
+                <div class="column halflin">
+                    <h1 class="title">
+                        Parcele em até <span class="green">120X</span>
+                    </h1>
+                </div>
+                <div class="column">
+                    <div class="columns">
+                        <div class="column is-half">
+                            <img src="img/Sicredi.png" alt="Sicredi">
+                        </div>
+                        <div class="column is-half">
+                            <img src="img/Santander.png" alt="Santander">
+                        </div>
+                    </div>
+                    <div class="columns">
+                        <div class="column is-half">
+                            <img src="img/BV.png" alt="Banco BV">
+                        </div>
+                        <div class="column is-half">
+                            <img src="img/Bradesco.png" alt="Bradesco">
+                        </div>
+                    </div>
+            </div>
+        </section>
+    </div>
+    <div class="banner b-2" id="contact">
+        <h1>A <span class="green">SFERA</span> cuida de tudo</h1>
+        <h2>Entre em contato</h2>
+        <section class="card-container cc-vertical contacts">
+            <div class="card">
+                <div class="card-content">
+                    <div class="media">
+                        <div class="media-left">
+                            <figure class="image is-64x64">
+                                <img src="img/whatsapp.svg" alt="Whatsapp">
+                            </figure>
+                        </div>
+                        <div class="media-content">
+                            <p class="title is-4">Whatsapp</p>
+                            <a class="is-6"
+                                href="whatsapp://send?text=Olá, gostaria de fazer um orçamento.&phone=+5551991771289"
+                                target="_blank" rel="noopener noreferrer">(51) 9 9177-1289</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="card">
+                <div class="card-content">
+                    <div class="media">
+                        <div class="media-left">
+                            <figure class="image is-64x64">
+                                <img src="img/email.svg" alt="E-Mail">
+                            </figure>
+                        </div>
+                        <div class="media-content">
+                            <p class="title is-4">E-Mail</p>
+                            <a class="is-6"
+                                href="mailto:contato@sfera.eco.br?subject=Orçamento&body=Olá, gostaria de fazer um orçamento."
+                                target="_blank" rel="noopener noreferrer">contato@sfera.eco.br</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="card">
+                <div class="card-content">
+                    <div class="media">
+                        <div class="media-left">
+                            <figure class="image is-64x64">
+                                <img src="img/facebook.svg" alt="Facebook">
+                            </figure>
+                        </div>
+                        <div class="media-content">
+                            <p class="title is-4">Facebook</p>
+                            <a class="is-6" href="https://www.facebook.com/sferasolucoesrenovaveis/" target="_blank"
+                                rel="noopener noreferrer">SFERA Soluções Renováveis</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </div>
+</body>
+
+</html>
